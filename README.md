@@ -119,7 +119,7 @@ extrair_distancia <- function(df){
 ```
 ## 3. Análise
 
-![graph]("https://github.com/lucas-a-correa/Bike-Sharing-Report/blob/main/Charts%20&%20Maps/Members.PNG?raw=true")
+![graph]("https://github.com/lucas-a-correa/Bike-Sharing-Report/blob/c0192d9769b4f318df6f422d8451d1c2881ae4ca/Charts/Members.PNG")
 
 Nossa amostra final é de pouco mais de 5,6 milhões de viagens, com 59,39% desse número
 composto por membros assinantes e 40,61% de usuários casuais.
