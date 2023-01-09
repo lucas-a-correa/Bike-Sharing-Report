@@ -111,6 +111,9 @@ for(x in 1:12){
   bike_2022_df <- rbind(bike_2022_df,df_list[[x]])
 }
 
+#Exclui as linhas com tempos negativos
+bike_2022_df <- bike_2022_df[!(bike_2022_df$trip_duration <= 0),]
+
 #Resumo das métricas de tempo e distância por tipo de usuário e período
 bike_tempodist_userperiod <- bike_2022_df %>% 
   group_by(period, member_casual) %>% 
