@@ -13,7 +13,7 @@
 
 Este relatório foi realizado conforme as orientações do curso do Certificado
 Profissional de Análise de Dados do Google, de acordo com as orientações e
-problema de negócio fictício disponíveis nesse [documento]().
+problema de negócio fictício disponíveis nesse [documento](https://github.com/lucas-a-correa/Bike-Sharing-Report/blob/main/Bike_Sharing_Business_Problem.pdf).
   
 #### Dados
   
@@ -40,7 +40,7 @@ e fundamentar as decisões da direção.
 
 Os dados fornecidos pela empresa são fornecidos em arquivos CSV, divididos por mês.
 A limpeza e transformação dos dados foi executada utilizando a linguagem R. O
-arquivo completo pode ser visualizado [aqui]().
+arquivo completo pode ser visualizado [aqui](https://github.com/lucas-a-correa/Bike-Sharing-Report/blob/main/Scripts/Bike_Cleaning.R).
 
 Os seguintes problemas foram encontrados nos dados:
 1. Viagens com informações sobre as estações de início e fim ausentes;
@@ -119,7 +119,7 @@ extrair_distancia <- function(df){
 ```
 ## 3. Análise
 
-![graph]("C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\Bike-Sharing-Report\\Members.png")
+![graph]("https://github.com/lucas-a-correa/Bike-Sharing-Report/blob/main/Charts%20%26%20Maps/Members.png")
 
 Nossa amostra final é de pouco mais de 5,6 milhões de viagens, com 59,39% desse número
 composto por membros assinantes e 40,61% de usuários casuais.
