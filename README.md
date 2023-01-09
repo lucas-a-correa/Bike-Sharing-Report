@@ -122,6 +122,12 @@ extrair_distancia <- function(df){
 ![Chart](/Charts/Members.PNG)
 
 Nossa amostra final é de pouco mais de 5,6 milhões de viagens, com 59,39% desse número
-composto por membros assinantes e 40,61% de usuários casuais.
+composto por membros assinantes e 40,61% de usuários casuais. O maior número de usuários membros pode ter relação com a preferência e lealdade à marca. Um membro assinante tem uma menor probabilidade de utilizar outras marcas como substitutas, planejando sua utilização de acordo com a disponibilidade de estações, enquanto os usuários casuais possuem maior facilidade em utilizar outra marca a depender da disponibilidade.
 
+![Chart](/Charts/Anual_Dist.PNG)
+
+Podemos observar que a utilização do serviço durante o ano é parecida nos dois grupos, começando o ano com valores baixos, de menos de 25 mil utilizações por dia, aumentando enquanto caminha para o meio do ano, atingindo um pico nos meses de julho e agosto, ultrapassando as 150 mil utilizações por dia, e caindo novamente nos meses de agosto e outubro. Devemos lembrar que a empresa analisada é situada na cidade de Chicago, que atinge temperaturas abaixo de 0°C no inverno (que ocorre de dezembro a março no hemisfério norte), o que influencia na utilização de bicicletas.
+Também podemos observar que, embora também apresente um aumento nos meses de verão, a variação da utilização dos membros é menos acentuada, o que sugere uma maior constância na utilização.
+
+![Chart](/Charts/Period_Dist.PNG)
 
