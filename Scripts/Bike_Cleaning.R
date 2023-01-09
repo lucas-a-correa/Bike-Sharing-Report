@@ -59,8 +59,7 @@ extrair_duracao <- function(df){
     rowwise() %>% 
     mutate(
       weekday = as.character(wday(started_at_clean))
-    )
-  bike_2022_df <- bike_2022_df %>% 
+    )%>% 
     rowwise() %>% 
     mutate(
       weekday = case_when(
