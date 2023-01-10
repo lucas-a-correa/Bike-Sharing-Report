@@ -79,3 +79,55 @@ ggplot(bike_2022_df)+
        fill="Tipos de Usuários")
 
 ggsave("Anual_Dist.png")
+
+order <- c(
+  'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday', "Sunday"
+)
+ggplot(bike_totaltrips_weekday)+
+  geom_col(
+    mapping = aes(
+      x=weekday,y=total_trips, fill=member_casual
+    ), position="dodge"
+  )+
+  scale_fill_brewer(palette = 'Accent')+
+  scale_x_discrete(limits=order)+
+  labs(x='Dias da Semana',y='Viagens',title = "Viagens por Dia da Semana",
+       fill="Tipos de Usuários")
+
+ggsave("WDay_Users.PNG")
+
+bike_data_wday_means <- bike_2022_df %>% 
+  group_by(weekday,period,member_casual) %>% 
+  summarise(Avg_Time = mean(trip_duration),Avg_Dist = mean(trip_distance))
+bike_data_wday_means <- bike_data_wday_means[
+  order(factor(bike_data_wday_means$weekday, levels=order)),
+]
+
+ggplot(bike_data_wday_means)+
+  geom_col(
+    mapping=aes(
+      x=weekday,y=Avg_Time, fill=member_casual
+    ), position="dodge"
+  )+
+  scale_fill_brewer(palette = 'Accent')+
+  facet_wrap(~member_casual)+
+  scale_x_discrete(limits=order)+
+  labs(x='Dias da Semana',y='Tempo (s)',title = "Tempo Médio por Dia da Semana",
+       fill="Tipos de Usuários")
+
+ggsave("WDay_Time.PNG")
+
+ggplot(bike_data_wday_means)+
+  geom_col(
+    mapping=aes(
+      x=weekday,y=Avg_Dist, fill=member_casual
+    ), position="dodge"
+  )+
+  scale_fill_brewer(palette = 'Accent')+
+  facet_wrap(~member_casual)+
+  scale_x_discrete(limits=order)+
+  labs(x='Dias da Semana',y='Distância (Km)',
+       title = "Distância Média por Dia da Semana",
+       fill="Tipos de Usuários")
+
+ggsave("WDay_Km.PNG")
