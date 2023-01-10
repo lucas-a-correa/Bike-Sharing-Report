@@ -131,3 +131,18 @@ ggplot(bike_data_wday_means)+
        fill="Tipos de Usuários")
 
 ggsave("WDay_Km.PNG")
+
+ggplot(bike_2022_df)+
+  geom_bar(
+    mapping = aes(
+      x=weekday, fill=member_casual
+    ), position="dodge"
+  )+
+  facet_wrap(~period)+
+  scale_fill_brewer(palette = 'Accent')+
+  scale_x_discrete(limits=order)+
+  labs(x='Dias da Semana',y='Viagens',
+       title = "Usuários por período por Dia da Semana",
+       fill="Tipos de Usuários")
+
+ggsave("WDay_Period.PNG")

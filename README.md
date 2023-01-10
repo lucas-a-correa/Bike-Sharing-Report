@@ -129,5 +129,21 @@ composto por membros assinantes e 40,61% de usuários casuais. O maior número d
 Podemos observar que a utilização do serviço durante o ano é parecida nos dois grupos, começando o ano com valores baixos, de menos de 25 mil utilizações por dia, aumentando enquanto caminha para o meio do ano, atingindo um pico nos meses de julho e agosto, ultrapassando as 150 mil utilizações por dia, e caindo novamente nos meses de agosto e outubro. Devemos lembrar que a empresa analisada é situada na cidade de Chicago, que atinge temperaturas abaixo de 0°C no inverno (que ocorre de dezembro a março no hemisfério norte), o que influencia na utilização de bicicletas.
 Também podemos observar que, embora também apresente um aumento nos meses de verão, a variação da utilização dos membros é menos acentuada, o que sugere uma maior constância na utilização.
 
-![Chart](/Charts/Period_Dist.PNG)
+![Chart](/Charts/WDay_Users.PNG)
 
+No gráfico acima destacamos o uso do serviço de acordo com o dia da semana. Podemos verificar um movimento inverso: Os memberos apresentam um maior número de viagens nos dias de semana, aumentando de segunda a quarta, e diminuindo de quinta a domingo. Por outro lado, os usuários casuais apresentam menores números durante a semana, com a maior quantidade de utilização no final de semana. Isso aponta para os modos de utilização diferentes: Os membros podem estar mais focados em utilizar o serviço no trajeto casa-trabalho, enquanto os casuais utilizam em trajetos de lazer, como passeios ou esportes.
+
+![Chart](/Charts/WDay_Period.PNG)
+
+Em seguida observamos o número de usuários distribuídos por períodos do dia, Madrugada (0h às 5h59), Manhã (6h às 11h59), Tarde (12h às 17h59) e Noite (18h às 23h59). O período da tarde é o que apresenta maior quantidade de ciclistas, com 42,5% dos membros e 45,1% dos casuais pedalando nesse horário. Entretanto, uma das diferenças entre os grupos pode ser observada no segundo período mais utilizado. O segundo horário mais utilizado pelos membros é o da manhã, com 27,2%, muito próximo do horário da noite, com 26,7%. Já os membros casuais preferem o horário da noite, com 30,6%, um aumento de quase 63% em comparação ao horário da manhã, com 18,8%.
+
+![Chart](/Charts/Member_Trip_Map.PNG) ![Chart](/Charts/Casual_Trip_Map.PNG)
+
+Para evidenciar esse uso diferenciado, podemos observar este mapa com as estações mais utilizadas entre os membros. São localizadas em regiões centrais, próximas de prédios de escritórios, universidades ou zonas residenciais, reforçando a hipótese de que estejam utilizando o serviço no trajeto casa-trabalho.
+Já no mapa das estações mais utilizadas pelos usuários casuais, vemos que se concentram em áreas de lazer, como parques, teatros e locais próximos do lago.
+
+![Chart](/Charts/WDay_Km.PNG) ![Chart](/Charts/WDay_Time.PNG)
+
+Por fim, podemos ver a variação do tempo e da distância média nos dois grupos. A distância média é parecida nos dois grupos, com 2,09km para os membros e 2,17km para os casuais, com pouca variação durante a semana e um leve aumento no final de semana. Já na duração das viagens podemos observar uma maior diferença. O tempo médio dos usuários é de 11m53s, e o dos casuais é de 18m51s. Isso corrobora nossa hipótese da utilização trabalho vs. lazer. Embora as distâncias sejam parecidas, o maior tempo sugere um passeio mais lento e sem pressa para os usuários casuais.
+
+## 4. Conclusão
