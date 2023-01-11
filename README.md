@@ -147,3 +147,32 @@ Já no mapa das estações mais utilizadas pelos usuários casuais, vemos que se
 Por fim, podemos ver a variação do tempo e da distância média nos dois grupos. A distância média é parecida nos dois grupos, com 2,09km para os membros e 2,17km para os casuais, com pouca variação durante a semana e um leve aumento no final de semana. Já na duração das viagens podemos observar uma maior diferença. O tempo médio dos usuários é de 11m53s, e o dos casuais é de 18m51s. Isso corrobora nossa hipótese da utilização trabalho vs. lazer. Embora as distâncias sejam parecidas, o maior tempo sugere um passeio mais lento e sem pressa para os usuários casuais.
 
 ## 4. Conclusão
+
+Com base nos dados analisados, podemos identificar algumas características dos usuários casuais e sugerir algumas linhas de ação que o time de marketing pode seguir para alcançar esses clientes:
+
+1. Como observamos, a maior utilização dos clientes casuais é voltada par o lazer: Fazem viagens mais longas e em um maior tempo. Uma campanha de marketing poderia destacar uma economia no longo prazo pelo tempo de utilização. Utilizando os preços da empresa na qual este exemplo é baseado, temos os seguintes valores:
+
+|   Plano Anual                      |
+|:----------------------------------:|
+|Taxa Mensal - $9,92              |
+|Preço/minuto - até 45 min - $0,00 |
+|Preço/minuto - acima de 45 min - $0,16 |
+
+|              Viagem Única             |
+|:-------------------------------------:|
+|Valor do Desbloqueio da Bicicleta - $1,00|
+|     Preço/minuto - $0,16      |
+
+|  Passe Diário   |
+|:---------------:|
+|Taxa Única - $15,00|
+
+Conforme os preços acima, se um usuário casual realizar mais de 2 viagens por mês, com a duração média de 18 minutos, ele estará pagando mais caro do que se assinasse o plano anual.
+
+2. No caso de propagandas físicas, como placas e outdoors, poderiam ser concentradas nas áreas em que verificamos um maior número de viajantes casuais, como parques e nas áreas ao redor do lago.
+
+3. Por fim, podemos focar nossos esforços nosmeses de verão, quando as pessoas terão uma probabilidade maior de utilizar os serviços e poderão enxergar mais facilmente as vantagens de assinar o plano.
+
+4. Quanto aos dados, podemos utilizar a análise para destacar os problemas encontrados e sugerir as correções necessárias. A maior parte dos erros foram encontrados nos nomes, IDs e coordenadas das estações, sugerindo algum problema na coleta ou na conversão dos dados. Também foram encontrados problemas, em menor volume, na duração das viagens, como algumas que apresentavam um horário de fim anterior ao horário do início. Esses pontos podem ser focados por nossos engenheiros de dados para buscar a origem dos erros.
+
+Em resumo, podemos avaliar a importância dos dados para a análise e conhecimento do público-alvo, buscando fundamentar as decisões de negócio. Mais análises podem ser realizadas em um momento posterior para verificar a eficácia das atitudes tomadas.
